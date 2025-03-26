@@ -35,9 +35,15 @@ console.log(getDuplicates(arr));
 //Write a JS script to search for the following word in the array."food"If the word is present, return it else return "the search word was not found". let arr5 = ["the", "way", "x", 4];
 let arr5 = ["the", "way", "x", 4];
 
-let findfood = arr5.includes("food");
-console.log(findfood)
-// let result = arr5.map(item = findfood ==arr5);
+let myfood = "food";
+if(arr5.includes(myfood)){
+    let result=myfood;
+    console.log({result});
+}
+else{
+    let result="the search word was not found";
+    console.log({result});
+}
 
 
 
@@ -53,7 +59,7 @@ console.log(d);
 const fruits = ["mango","guava","pineapple","banana","apple","orange","lemon","grape" ,"strawberry","blueberry"]
 let length = fruits.length;
 console.log(length);
-fruits[5] = "Tomato";
+fruits[5] = "tomato";
 console.log(fruits);
 
 
